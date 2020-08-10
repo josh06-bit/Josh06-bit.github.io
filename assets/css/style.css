@@ -286,13 +286,13 @@
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 34%, rgba(202,202,202,1) 44%, rgba(0,0,0,1) 200%);
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   #sevices {
     height: 900px;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #sevices {
     height: 1650px;
   }
