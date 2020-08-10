@@ -572,7 +572,7 @@
 }
 
 #latest-works-section {
-  height: 1100px;
+  height: 800px;
   padding: 20px;
   color: white;
   text-align: center;
@@ -582,7 +582,7 @@
 
 @media (max-width: 400px) {
   #latest-works-section {
-    height: 1200px;
+    height: 800px;
   }
 }
 
