@@ -279,7 +279,7 @@
 }
 
 #sevices {
-  height: 1650px;
+  height: 1000px;
   padding: 20px;
   text-align: center;
   background: rgb(255,255,255);
@@ -288,7 +288,13 @@
 
 @media (min-width: 992px) {
   #sevices {
-    height: 1000px;
+    height: 900px;
+  }
+}
+
+@media (min-width: 768px) {
+  #sevices {
+    height: 1650px;
   }
 }
 
@@ -361,6 +367,7 @@
 @media (max-width: 992px) {
   .services-image {
     margin: 10px;
+    width: 400px;
   }
 }
 
@@ -375,6 +382,13 @@
   .services-image {
     margin: 15px;
     width: 500px;
+  }
+}
+
+@media (max-width: 510px) {
+  .services-image {
+    margin: 15px;
+    width: 400px;
   }
 }
 
