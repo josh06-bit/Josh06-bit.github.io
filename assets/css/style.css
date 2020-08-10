@@ -572,7 +572,7 @@
 }
 
 #latest-works-section {
-  /*height: 500px;*/
+  height: 400px;
   padding: 20px;
   color: white;
   text-align: center;
@@ -580,11 +580,11 @@
   /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 34%, rgba(202,202,202,1) 44%, rgba(0,0,0,1) 200%);*/
 }
 
-/*@media (max-width: 400px) {
+@media (max-width: 400px) {
   #latest-works-section {
     height: 300px;
   }
-}*/
+}
 
 .hire-me-parent {
   width: 100%;
