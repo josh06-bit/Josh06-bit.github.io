@@ -425,8 +425,8 @@
 }
 
 .services-overlay-1 {
-  width: 500px;
-  height: 300px;
+  width: inherit;
+  height: inherit;
   border-radius: 20px;
   background-color: rgba(60,67,232,0.76);
   display: flex;
@@ -439,20 +439,20 @@
 
 @media (max-width: 768px) {
   .services-overlay-1 {
-    width: 600px;
+    width: inherit;
   }
 }
 
 @media (max-width: 576px) {
   .services-overlay-1 {
-    width: 500px;
+    width: inherit;
   }
 }
 
 @media (max-width: 360px) {
   .services-overlay-1 {
-    width: 320px;
-    height: 200px;
+    width: inherit;
+    height: inherit;
   }
 }
 
@@ -474,8 +474,8 @@
 }
 
 .services-overlay-2 {
-  width: 500px;
-  height: 300px;
+  width: inherit;
+  height: inherit;
   border-radius: 20px;
   background-color: rgba(227,191,5,0.84);
   display: flex;
@@ -485,20 +485,20 @@
 
 @media (max-width: 768px) {
   .services-overlay-2 {
-    width: 600px;
+    width: inherit;
   }
 }
 
 @media (max-width: 576px) {
   .services-overlay-2 {
-    width: 500px;
+    width: inherit;
   }
 }
 
 @media (max-width: 360px) {
   .services-overlay-2 {
-    width: 320px;
-    height: 200px;
+    width: inherit;
+    height: inherit;
     padding: 25px 50px;
   }
 }
@@ -509,8 +509,8 @@
 }
 
 .services-overlay-3 {
-  width: 500px;
-  height: 300px;
+  width: inherit;
+  height: inherit;
   border-radius: 20px;
   background-color: rgba(145,1,27,0.87);
   display: flex;
@@ -520,20 +520,20 @@
 
 @media (max-width: 768px) {
   .services-overlay-3 {
-    width: 600px;
+    width: inherit;
   }
 }
 
 @media (max-width: 576px) {
   .services-overlay-3 {
-    width: 500px;
+    width: inherit;
   }
 }
 
 @media (max-width: 360px) {
   .services-overlay-3 {
-    width: 320px;
-    height: 200px;
+    width: inherit;
+    height: inherit;
   }
 }
 
@@ -543,8 +543,8 @@
 }
 
 .services-overlay-4 {
-  width: 500px;
-  height: 300px;
+  width: inherit;
+  height: inherit;
   border-radius: 20px;
   background-color: rgba(2,142,7,0.83);
   display: flex;
@@ -554,20 +554,20 @@
 
 @media (max-width: 768px) {
   .services-overlay-4 {
-    width: 600px;
+    width: inherit;
   }
 }
 
 @media (max-width: 576px) {
   .services-overlay-4 {
-    width: 500px;
+    width: inherit;
   }
 }
 
 @media (max-width: 360px) {
   .services-overlay-4 {
-    width: 320px;
-    height: 200px;
+    width: inherit;
+    height: inherit;
   }
 }
 
