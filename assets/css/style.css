@@ -587,7 +587,6 @@
 
 #latest-works-section {
   height: 800px;
-  padding: 20px;
   color: white;
   text-align: center;
   background: rgb(129,127,127);
@@ -662,5 +661,21 @@
   .hire-overlay h1::after {
     transform: translateX(0);
   }
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  height: 800px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+
 }
 
