@@ -595,14 +595,14 @@
 
 @media (max-width: 400px) {
   #latest-works-section {
-    height: 550px;
+    height: 700px;
     padding: 0;
   }
 }
 
 @media (max-width: 750px) {
   #latest-works-section {
-    height: 650px;
+    height: 800px;
     padding: 0;
   }
 }
