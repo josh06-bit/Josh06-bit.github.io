@@ -683,6 +683,7 @@
   .swiper-container {
     height: 500px;
     padding-bottom: 100px;
+    padding-top: 10px;
   }
 }
 
