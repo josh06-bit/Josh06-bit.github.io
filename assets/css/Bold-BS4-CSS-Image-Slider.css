@@ -74,3 +74,13 @@
     text-align: center;
     padding-left: 20px;
 }
+
+.image_title:hover {
+  /*list-style: none;*/
+  text-decoration: none;
+  font-weight: bold;
+  transition: .2s;
+  color: white;
+}
+
+
