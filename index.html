@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="/assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="/assets/css/Navigation-Clean.css">
+	<!--swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
@@ -106,33 +109,22 @@
             <p><br><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                 it to make a type specimen book.&nbsp;<br></p>
         </div>
-        <div id="slider">
-		<input type="radio" name="slider" id="sd1" >
-			<input type="radio" name="slider" id="sd2">
-				<input type="radio" name="slider" id="sd3" checked>
-					<input type="radio" name="slider" id="sd4">
-						<input type="radio" name="slider" id="sd5">
-			<label for="sd1" id="slide-1">
-				<a class="image-title-link" href="#">Project 1</a>
-			    <img src="assets/img/alvaro-reyes-qWwpHwip31M-unsplash.jpg" alt="" height="100%" width="100%">
-			</label>
-				<label for="sd2" id="slide-2">
-					<a class="image-title-link" href="#">Project 2</a>
-				    <img src="assets/img/daniel-korpai-mxPiMiz7KCo-unsplash (1).jpg" alt="" height="100%" width="100%">
-				</label>
-					<label for="sd3" id="slide-3">
-						<a class="image-title-link" href="#">Project 3</a>
-					    <img src="assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg" alt="" height="100%" width="100%">
-					</label>
-						<label for="sd4" id="slide-4">
-							<a class="image-title-link" href="#">Project 4</a>
-						    <img src="assets/img/maxwell-nelson-Ix64NPGxZoQ-unsplash.jpg" alt="" height="100%" width="100%">
-						</label>
-							<label for="sd5" id="slide-5">
-								<a class="image-title-link" href="#">Project 5</a>
-							    <img src="assets/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg" alt="" height="100%" width="100%">
-							</label>
-   	 </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(./assets/img/alvaro-reyes-qWwpHwip31M-unsplash.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/daniel-korpai-mxPiMiz7KCo-unsplash\ \(1\).jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/maxwell-nelson-Ix64NPGxZoQ-unsplash.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/i1.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/i2.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/alvaro-reyes-qWwpHwip31M-unsplash.jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/daniel-korpai-mxPiMiz7KCo-unsplash\ \(1\).jpg)"></div>
+              <div class="swiper-slide" style="background-image:url(./assets/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg)"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
     </section>
     <section id="hire-me">
         <div class="hire-me-parent">
@@ -179,6 +171,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="/assets/js/Animated-Type-Heading.js"></script>
     <script src="/assets/js/script.js"></script>
+	<!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../package/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+            loop: true,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
+        });
+      </script>
 </body>
 
 </html>
