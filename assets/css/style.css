@@ -679,3 +679,16 @@
 
 }
 
+@media (max-width: 750px){
+  .swiper-container {
+    height: 500px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 750px){
+  .swiper-slide {
+    height: 300px;
+    width: 300px;
+  }
+}
