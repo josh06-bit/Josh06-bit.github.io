@@ -123,6 +123,38 @@
   }
 }
 
+.about-h1 h1 {
+  position: relative;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .about-shapes-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-shapes-2 {
+    display: none;
+  }
+}
+
+
+.about-shapes-1 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  transform: translate(-30px,-80px);
+}
+
+.about-shapes-2 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  transform: translate(100px,-180px);
+}
+
 #about-div {
   text-align: justify;
 }
