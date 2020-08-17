@@ -195,7 +195,7 @@
 /*--------------------------------------------------------------------------------- Services ---------------------------------------------------------------------*/
 
 #sevices {
-  height: 1000px;
+  height: 1650px;
   color: white;
   padding: 20px;
   text-align: center;
@@ -206,7 +206,7 @@
 
 @media (max-width: 992px) {
   #sevices {
-    height: 900px;
+    height: 1000px;
   }
 }
 
