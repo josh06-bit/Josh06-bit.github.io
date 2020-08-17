@@ -35,7 +35,7 @@
   color: #bdbff7;
   transition: .5s;
 }
-
+/*---------------------------------------------------------------------------------Main ---------------------------------------------------------------------*/
 .d-flex.justify-content-center.align-items-center {
   top: 200px;
   position: absolute;
@@ -96,50 +96,76 @@
     text-align: center !important;
   }
 }
-
+/*---------------------------------------------------------------------------------About me ---------------------------------------------------------------------*/
 #about-me {
-  background-color: #817f7f;
   height: 500px;
-  align-content: center;
-  position: relative;
-  justify-content: center;
 }
 
-@media (max-width: 360px) {
-  #about-me {
+#about-me-section {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 34%, rgba(202,202,202,1) 44%, rgba(0,0,0,1) 200%);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: inherit;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 500px) {
+  #about-me-section {
     display: flex;
-    background-color: #817f7f;
-    height: 700px;
-    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
   }
 }
 
-@media (max-width: 360px) {
-  #about-me .img-1 {
-    display: none;
+#about-div {
+  text-align: justify;
+}
+
+@media (max-width: 400px) {
+  #about-div {
+    font-size: 12px;
+    padding: 30px;
   }
 }
 
-@media (max-width: 360px) {
-  #about-me .img-2 {
-    display: none;
+.about-me-h1::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 3px;
+  background: #8a8ef1;
+  transition: width .5s;
+}
+
+.about-buttons {
+  display: flex;
+  z-index: 200;
+}
+
+@media (max-width: 768px) {
+  .about-buttons {
+    display: flex;
+    z-index: 200;
+    justify-content: center;
   }
 }
 
-#about-me .img-1 {
-  position: absolute;
-  top: 200px;
-  height: 250px;
-  width: 250px;
-  left: 13%;
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #625f5f !important;
+  border-color: #ffffff !important;
 }
 
-#about-me .img-2 {
-  position: absolute;
-  top: 90px;
-  height: 250px;
-  width: 250px;
-  left: 25%;
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff !important;
+  background-color: #817f7f !important;
+  border-color: #ffffff !important;
 }
 
 .btn-primary {
@@ -166,126 +192,16 @@
   }
 }
 
-@media (max-width: 768px) {
-  #about-div {
-    text-align: justify;
-    color: white;
-    padding: 0 30px;
-    z-index: 100;
-  }
-}
-
-.btn-primary:hover {
-  color: #fff !important;
-  background-color: #625f5f !important;
-  border-color: #ffffff !important;
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff !important;
-  background-color: #817f7f !important;
-  border-color: #ffffff !important;
-}
-
-#about-me-section {
-  display: flex;
-  align-items: center;
-  height: inherit;
-  flex-wrap: nowrap;
-  text-align: justify;
-  justify-content: center;
-  padding: 100px 50px 70px 70px;
-}
-
-@media (max-width: 360px) {
-  #about-me-section {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  #about-me-section {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    padding: 50px 0 30px 0;
-    height: inherit;
-  }
-}
-
-.about-me-h1 {
-  width: 1300px;
-  color: white;
-  font-size: 50px;
-  z-index: 100;
-}
-
-#about-div {
-  z-index: 100;
-  color: white;
-}
-
-@media (min-width: 992px) {
-  #about-div {
-    z-index: 100;
-    color: white;
-    padding: 0 30px;
-  }
-}
-
-.about-buttons {
-  display: flex;
-  z-index: 200;
-}
-
-@media (max-width: 768px) {
-  .about-buttons {
-    display: flex;
-    z-index: 200;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 992px) {
-  .about-me-h1 {
-    width: 1800px;
-    /*padding-bottom: 150px;*/
-  }
-}
-
-@media (max-width: 768px) {
-  .about-me-h1 {
-    width: 250px;
-  }
-}
-
-.about-me-h1::after {
-  content: '';
-  display: block;
-  width: 50%;
-  height: 3px;
-  background: #8a8ef1;
-  transition: width .5s;
-  /*transform: translateX(0px);*/
-}
-
-@media (min-width: 1300px) {
-  .about-me-h1::after {
-    transform: translateX(15px);
-  }
-}
+/*--------------------------------------------------------------------------------- Services ---------------------------------------------------------------------*/
 
 #sevices {
   height: 1000px;
+  color: white;
   padding: 20px;
   text-align: center;
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 34%, rgba(202,202,202,1) 44%, rgba(0,0,0,1) 200%);
+  background-image: url(assets/img/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @media (max-width: 992px) {
@@ -587,6 +503,8 @@
   }
 }
 
+/*--------------------------------------------------------------------------------- Latest works ---------------------------------------------------------------------*/
+
 #latest-works-section {
   height: 1100px;
   color: white;
@@ -609,12 +527,44 @@
   }
 }
 
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  height: 800px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+
+}
+
+@media (max-width: 750px){
+  .swiper-container {
+    height: 500px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 750px){
+  .swiper-slide {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/*--------------------------------------------------------------------------------- Hire me section ---------------------------------------------------------------------*/
 .hire-me-parent {
   width: 100%;
   height: 350px;
   background-image: url(/assets/img/maxwell-nelson-Ix64NPGxZoQ-unsplash.jpg);
   background-size: cover;
-  /*display: flex;*/
+  background-attachment: fixed;
 }
 
 .hire-overlay {
@@ -662,36 +612,5 @@
 @media (max-width: 576px) {
   .hire-overlay h1::after {
     transform: translateX(0);
-  }
-}
-
-.swiper-container {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 200px;
-  height: 800px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 500px;
-  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
-
-}
-
-@media (max-width: 750px){
-  .swiper-container {
-    height: 500px;
-    padding-bottom: 100px;
-    padding-top: 10px;
-  }
-}
-
-@media (max-width: 750px){
-  .swiper-slide {
-    height: 300px;
-    width: 300px;
   }
 }
