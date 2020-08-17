@@ -160,10 +160,10 @@
   padding: 0 50px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #about-div {
     font-size: 12px;
-    padding: 30px;
+    padding: 0 30px;
   }
 }
 
