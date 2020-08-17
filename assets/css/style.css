@@ -103,7 +103,7 @@
 
 @media (max-width: 400px) {
     #about-me {
-    height: 600px;
+    height: 0;
   }
 }
 
