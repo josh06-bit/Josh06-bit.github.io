@@ -204,11 +204,6 @@
   background-attachment: fixed;
 }
 
-@media (max-width: 992px) {
-  #services {
-    height: 900px;
-  }
-}
 
 @media (max-width: 768px) {
   #services {
@@ -216,9 +211,9 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #services {
-    height: 1300px;
+    height: 1350px;
   }
 }
 
