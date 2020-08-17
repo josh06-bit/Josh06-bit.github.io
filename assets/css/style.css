@@ -194,8 +194,8 @@
 
 /*--------------------------------------------------------------------------------- Services ---------------------------------------------------------------------*/
 
-#sevices {
-  height: 1650px;
+#services {
+  height: 1000px;
   color: white;
   padding: 20px;
   text-align: center;
@@ -205,19 +205,19 @@
 }
 
 @media (max-width: 992px) {
-  #sevices {
-    height: 1000px;
+  #services {
+    height: 900px;
   }
 }
 
 @media (max-width: 768px) {
-  #sevices {
+  #services {
     height: 1650px;
   }
 }
 
 @media (max-width: 360px) {
-  #sevices {
+  #services {
     height: 1300px;
   }
 }
