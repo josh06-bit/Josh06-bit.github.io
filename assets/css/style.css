@@ -157,6 +157,7 @@
 
 #about-div {
   text-align: justify;
+  padding: 0 50px;
 }
 
 @media (max-width: 400px) {
