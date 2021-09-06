@@ -23,6 +23,7 @@
 
 .cool-links:hover::after {
   transition: width .5s;
+  background: #bdbff7;
   width: 50%;
 }
 
