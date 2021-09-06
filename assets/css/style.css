@@ -63,7 +63,7 @@
 }
 
 #main {
-  background-image: url("/assets/img/new-background.jpg");
+  background-image: url("../img/new-background.jpg");
   height: 700px;
   background-size: cover;
 }
@@ -244,7 +244,7 @@
   color: white;
   padding: 20px;
   text-align: center;
-  background-image: url(/assets/img/luca-bravo-9l_326FISzk-unsplash.jpg);
+  background-image: url("../img/luca-bravo-9l_326FISzk-unsplash.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -258,7 +258,7 @@
 
 @media (max-width: 400px) {
   #services {
-    height: 1350px;
+    height: 1350px;]
   }
 }
 
@@ -272,10 +272,11 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   .services-title {
     padding: 40px 0;
-    text-align: justify;
+    text-align: center;
+
   }
 }
 
@@ -291,8 +292,8 @@
 .services-h1 {
   /*width: 150px;*/
   display: inline-block;
-  /*text-align: center !important;*/
-  /*align-items: center;*/
+  /*text-align: center !important;
+  align-items: center;*/
 }
 
 #services-main-parent {
@@ -350,7 +351,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .services-image {
     margin: 15px;
     width: 320px;
@@ -358,8 +359,16 @@
   }
 }
 
+@media (max-width: 360px) {
+  .services-image {
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+  }
+}
+
 #services-UI {
-  background-image: url(/assets/img/alvaro-reyes-qWwpHwip31M-unsplash.jpg);
+  background-image: url(./assets/img/alvaro-reyes-qWwpHwip31M-unsplash.jpg);
   background-size: cover;
 }
 
@@ -441,7 +450,7 @@
 }
 
 #services-web-dev {
-  background-image: url(/assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+  background-image: url(./assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
   background-size: cover;
 }
 
@@ -476,7 +485,7 @@
 }
 
 #services-encoding {
-  background-image: url(/assets/img/pexels-photo-160107.jpeg);
+  background-image: url(./assets/img/pexels-photo-160107.jpeg);
   background-size: cover;
 }
 
@@ -510,7 +519,7 @@
 }
 
 #services-design {
-  background-image: url(/assets/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
+  background-image: url(./assets/img/you-x-ventures-Oalh2MojUuk-unsplash.jpg);
   background-size: cover;
 }
 
@@ -622,7 +631,7 @@
 .hire-me-parent {
   width: 100%;
   height: 350px;
-  background-image: url(/assets/img/maxwell-nelson-Ix64NPGxZoQ-unsplash.jpg);
+  background-image: url(./assets/img/maxwell-nelson-Ix64NPGxZoQ-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
