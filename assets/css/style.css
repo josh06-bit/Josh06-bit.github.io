@@ -62,7 +62,7 @@
 }
 
 #main {
-  background-image: url(/Josh06-bit.github.io-master/assets/img/new-background.jpg);
+  background-image: url(/assets/img/new-background.jpg);
   height: 700px;
   background-size: cover;
 }
@@ -243,7 +243,7 @@
   color: white;
   padding: 20px;
   text-align: center;
-  background-image: url(/Josh06-bit.github.io-master/assets/img/luca-bravo-9l_326FISzk-unsplash.jpg);
+  background-image: url(/assets/img/luca-bravo-9l_326FISzk-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
