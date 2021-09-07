@@ -62,9 +62,9 @@
 }
 
 #main {
-  background-image: url(/assets/img/new-background.jpg);
-  height: 700px;
-  background-size: cover;
+    background-image: url(/assets/img/new-background.jpg);
+    height: 700px;
+    background-size: cover;
 }
 
 #main {
