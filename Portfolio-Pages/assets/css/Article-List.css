@@ -77,3 +77,15 @@
   }
 }
 
+@media (max-width: 360px) {
+  .d-table {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .text-justify {
+    font-size: 14px;
+  }
+}
+
