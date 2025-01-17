@@ -372,7 +372,7 @@
 }
 
 
-@media (max-width: 360px) {
+@media (min-width: 768px) {
   .text-white {
         text-align: left;
     }
