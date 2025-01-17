@@ -363,17 +363,19 @@
 }
 
 .text-white {
-  margin: 0;
-  padding: 15px 0 0px 0;
-  text-align: justify;
+    margin: 0;
+    padding: 15px 0 0px 0;
+    text-align: justify;
+    max-width: 1000px; /* Set a reasonable max-width */
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 @media (max-width: 360px) {
   .text-white {
-    margin: 0;
-    /*padding: 15px 0 0px 0;*/
-    text-align: justify;
-  }
+        text-align: left;
+    }
 }
 
 .services-paragraph {
